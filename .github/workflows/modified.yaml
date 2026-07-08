@@ -35,8 +35,8 @@ jobs:
           python-version: ${{ matrix.python-version }}
           architecture: x64
           # CINTENT >> REMOVE_CACHE
-          # cache: 'pip'
-          # cache-dependency-path: 'requirements*'
+          cache: 'pip'
+          cache-dependency-path: 'requirements*'
 
       # CINTENT >> INSERT_CINTENT
       # - uses: JavidDitty/setup-cintent@main
